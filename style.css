@@ -1,45 +1,75 @@
 body {
-    font-family: sans-serif;
-    font-size: 24px;
-    background-color: rgb(104, 54, 54);
+    background:#f9e933;
   }
-  .logo {
-      margin-top: -250px;
-      margin-left: -30px;
+  header,main,footer{
+    min-width: 855px;
   }
-  .logo .img{
-      height: 300px;
+  header .container, main .container, footer .container{
+    max-width: 855px;
+    margin: auto;
   }
-  
   header{
-      margin-top: 0px;
+      background: white;
+      overflow: hidden; /*If content is bigger than its set dimensions 
+                          Content that overflows is hidden */
   }
-    nav{
-
-        text-align: right;
-        margin-right: 10px;
-        margin-top: -180px;
-        margin-bottom: 140px;
-       
-
-    }
-    h1 {
-    color: rgb(249, 249, 250);
-    font-family: serif;
-    text-align: center;
-    font-size: 110px;
-    }
-    h2 {
-        color: rgb(249, 249, 250);
-        font-family: 'Tangerine', serif;
-        text-align: center;
-        font-size: 80px;
-        }
+  header h1{
+    float: left;
+    width: 570px;
+    font-family:"Audiowide", Helvetica, sans-serif;
+    font-size: xxx-large;
+  }
+  header nav{
+    float: right;
+    width: 285px ;
+  }
+  main{
+    background: white;
+    overflow: auto;
     
-    p
-    {
-    color: rgb(246, 245, 247);
-    border: 2px solid rgb(249, 245, 245);
-    padding: 10px;
+  }
+  main h2 {
+    font-size: x-large;
+    font-family: Helvetica, sans-serif;;
+  }
+  main h3{
+    font-size: large;
+    font-family: Helvetica, sans-serif;;
+  }
+  main .left{
+    float: left;
+    width: 570px;
+  }
+  p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h5{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  li{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ nav a{
+    font-size: large;
+    font-family:Tahoma, sans-serif;
+  }
+  main .right {
+    float: right;
+    width: 285px;
+  }
+  footer .left{
+    float: left;
+    width: 570px;
+  }
+footer .sitemap{
+    float: right;
+    width: 285px; 
+}
+ 
+
     
-    }
+    
+  
